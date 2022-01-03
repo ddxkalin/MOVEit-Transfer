@@ -1,4 +1,13 @@
-# MOVEit Transfer
+</h1>
+<h3 align="center">
+	MOVEit Transfer
+</h3>
+
+<p align="center">
+	<img alt="Last Commit" src="https://img.shields.io/github/last-commit/ddxkalin/moveit-transfer.svg?style=flat-square">
+	<img alt="Licence" src="https://img.shields.io/github/license/ddxkalin/moveit-transfer.svg?style=flat-square">
+	<img alt="Star" src="https://img.shields.io/badge/you%20like%20%3F-STAR%20ME-blue.svg?style=flat-square">
+</p>
 
 ## Project Requirements
 - Create an interface that allows a user to upload a file to MOVEit Transfer using the REST API
@@ -28,3 +37,27 @@ Auth-sample.txt attachment is a PowerShell example that should help you understa
          2. 2.Open "Run"
          3. 3.Execute the following command: 4.chrome.exe --user-data-dir="C://Chrome dev session" --disable-web-security
       3. Download the Allow CORS: Access-Control-Allow-Origin extension for the browser and enable it.
+
+## Running the project
+
+Clone this repository :
+
+```
+git clone https://github.com/ddxkalin/moveit-transfer.git
+cd moveit
+```
+
+Install packages :
+
+```
+npm install
+```
+
+When installation is complete, run :
+
+```bash
+npm start
+```
+
+## Issues
+Currently having issues with the api/v1/token.
