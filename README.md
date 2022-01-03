@@ -15,19 +15,16 @@
 The API uses Access Tokens to validate the user. The first step is to get the token by providing the username and password to the server
 After the token is received it is added to headers as “Authorization” = “Bearer ”
 Auth-sample.txt attachment is a PowerShell example that should help you understand how to get the token and use i
-- Disable CORS in Chrome
- ``` 
- *OSX
-Quit Chrome
-Go to Terminal
 
-Execute the following command:
-
-open /Applications/Google\ Chrome.app --args --user-data-dir="/var/tmp/Chrome dev session" --disable-web-security
-
-*Windows
-Close all Chrome windows
-Open "Run"
-Execute the following command
-chrome.exe --user-data-dir="C://Chrome dev session" --disable-web-security
-```
+## Prerequisites :
+   1. Have a Google chrome browser installed
+   2. Run it with CORS disabled :
+      1. Disable CORS in Chrome oOSX: 
+         1. 1.Quit Chrome
+         2. 2.Go to Terminal
+         3. 3.Execute the following command:4.open /Applications/Google\Chrome.app --args --user-data-dir="/var/tmp/Chrome dev session" --disable-web-security
+      2. Disable CORS in Chrome Windows: 
+         1. Close all Chrome windows
+         2. 2.Open "Run"
+         3. 3.Execute the following command4.chrome.exe --user-data-dir="C://Chrome dev session" --disable-web-security
+      3. Download the Allow CORS: Access-Control-Allow-Origin extension for the browser and enable it.
