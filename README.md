@@ -22,9 +22,9 @@ Auth-sample.txt attachment is a PowerShell example that should help you understa
       1. Disable CORS in Chrome oOSX: 
          1. 1.Quit Chrome
          2. 2.Go to Terminal
-         3. 3.Execute the following command:4.open /Applications/Google\Chrome.app --args --user-data-dir="/var/tmp/Chrome dev session" --disable-web-security
+         3. 3.Execute the following command: 4.open /Applications/Google\Chrome.app --args --user-data-dir="/var/tmp/Chrome dev session" --disable-web-security
       2. Disable CORS in Chrome Windows: 
          1. Close all Chrome windows
          2. 2.Open "Run"
-         3. 3.Execute the following command4.chrome.exe --user-data-dir="C://Chrome dev session" --disable-web-security
+         3. 3.Execute the following command: 4.chrome.exe --user-data-dir="C://Chrome dev session" --disable-web-security
       3. Download the Allow CORS: Access-Control-Allow-Origin extension for the browser and enable it.
