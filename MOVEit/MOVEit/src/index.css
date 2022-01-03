@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #673497;
+  font-family: 'Arial';
+  margin-top: 155px;
+}
+
+.login {
+  width: 382px;
+  overflow: hidden;
+  border: solid;
+  border-color: #f6f6e9;
+  margin: auto;
+  margin: 50 0 0 450px;
+  padding: 80px;
+  background: #f6f6e9;
+  border-radius: 15px;
+  
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Arial';
+  font-size: 28px;
+  color: #c6c922;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Arial';
+  font-size: 24px;
+  color: #c6c922;
+  padding: 0px;
+}
+
+.labelCredentials {
+  color: #673497;
+  font-family: 'Arial';
+  font-size: 17px;
+  padding-right: 8px;
+  position: relative;
+  margin-top: 15px;
+  
+}
+.labelFiles {
+  color: #673497;
+  font-family: 'Arial';
+  font-size: 17px;
+  padding-right: 8px;
+  position: relative;
+  margin-top: 15px;
+  
+}
+
+.logInButton {
+  width: 100px;
+  height: 30px;
+  border: none;
+  border-radius: 15px;
+  color: rgb(0, 0, 0);
+  font-family: 'Arial';
+  font-size: 14pt;
+  margin-top: 10px;
+  background-color: #c6c922;
+}
+
+.logInButton:hover {
+  background-color: #c6c922;
+}
+
+.logInButton:active {
+  background-color: #c6c922;
+  box-shadow: 0 5px #f6f6e9;
+  transform: translateY(4px);
+}
+
+.fileChoseButton {
+  width: relative;
+  border: solid;
+  border-color:#673497;
+  position: relative;
+  border-radius: 10px;
+  font-family: 'Arial';
+  font-size: 14pt;
+  background-color: #f6f6e9;
+}
+
+.fileChoseButton:hover {
+  background-color: #f6f6e9;
+}
+
+.fileChoseButton:active {
+  background-color: #f6f6e9;
+}
+.uploadButton {
+  width: 100px;
+  height: 30px;
+  border: none;
+  position: relative;
+  border-radius: 15px;
+  font-family: 'Arial';
+  font-weight: 500;
+  font-size: 15pt;
+  margin-top: 25px;
+  background-color: #c6c922;
+}
+
+.uploadButton:hover {
+  background-color: #c6c922;
+}
+
+.uploadButton:active {
+  background-color: #c6c922;
+  box-shadow: 0 5px #f6f6e9;
+  transform: translateY(4px);
+}
+
+span {
+  color: white;
+  font-size: 57px;
+}
+
+a {
+  float: right;
+  background-color: grey;
+}
