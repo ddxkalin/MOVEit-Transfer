@@ -60,4 +60,9 @@ npm start
 ```
 
 ## Issues
-Currently having issues with the api/v1/token.
+- Currently having issues with the api/v1/token.
+
+## TODO:
+- Implement Unit tests for better perfomance and better CI/CD deployment.
+- UI Improvements
+- Alarms for Log In and Upload.
